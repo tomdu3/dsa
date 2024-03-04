@@ -122,7 +122,7 @@ def search(self, data):
 ![Big O notation diagram](./docs/bigograph.webp)
 [resource](https://medium.com/dataseries/how-to-calculate-time-complexity-with-big-o-notation-9afe33aa4c46)
 
-### Example $O(1)$
+### Example $O(1)$ - Constant Time
 ```python
 colors = ['green', 'blue', 'yellow', 'red', 'pink']
 
@@ -132,7 +132,7 @@ def constant(colors):
 constant(colors)
 ```
 
-## Example $O(n)$
+## Example $O(n)$ - Linear Time
 ```python
 
 colors = ['green', 'blue', 'yellow', 'red', 'pink']
@@ -150,7 +150,7 @@ linear(colors)
 
 - complexity of the algorithm is $O(n)$
 
-## Example $O(n^2)$
+## Example $O(n^2)$ - Quadratic Time
 ```python
 colors = ['green', 'blue', 'yellow', 'red', 'pink']
 
@@ -170,7 +170,8 @@ quadratic(colors)
 - quadratic pattern
 - complexity of the algorithm is $O(n^2)$
 
-## Example $O(n^3)$
+
+## Example $O(n^3)$ - Cubic Time
 ```python
 colors = ['green', 'blue', 'yellow', 'red', 'pink']
 
