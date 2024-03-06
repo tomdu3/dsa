@@ -27,5 +27,3 @@ class LinkedList:
     def ___init__(self):
         self.head = None
         self.tail = None
-
-
