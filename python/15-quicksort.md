@@ -20,7 +20,7 @@
 def quicksort(my_list, first_index, last_index):
     if first_index < last_index:
         partition_index = partition(my_list, first_index, last_index)
-        quicksort(my_list, first_index, partition_index - 1)
+        quicksort(my_list, first_index, partition_index)
         quicksort(my_list, partition_index + 1, last_index)
 
 
