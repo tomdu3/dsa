@@ -42,8 +42,6 @@ def merge_sort(my_list):
             my_list[k] = right_half[j]
             j += 1
             k += 1
-
-    return my_list
 ```
 
 ## Time Complexity
